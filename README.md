@@ -21,7 +21,7 @@ I was supposed to create one R script called run_analysis.R that does the follow
 2. The script creates "data" folder under the current working directory, that is "./data".
 3. The script downloads the data (a zip file) and unzips under the "./data" folder.
 4. The script loads data from various text files, merges and aggregates data  in memory as needed.
-4. Finally a tidy data file, ```tidy.txt```, is created in the current working directory.
+4. Finally, a tidy data file, ```tidy.txt```, is created under the current working directory.
 
 ## Dependencies
 
