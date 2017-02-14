@@ -1,4 +1,4 @@
-# GettingAndCleaningData Course Assignment
+# "Getting And Cleaning Data" Assignment
 
 ## The Assignment
 
