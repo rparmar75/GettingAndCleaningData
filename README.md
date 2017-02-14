@@ -20,8 +20,9 @@ I am supposed to create one R script called run_analysis.R that does the followi
 1. Run ```source("run_analysis.R")```. 
 2. The script creates "data" folder under the current working directory, that is "./data".
 3. The script downloads the data (a zip file) and unzips under the "./data" folder.
+4. The script loads data from various text files, merges and aggregates data  in memory as needed.
 4. Finally a file ```tiny.txt``` is created in the current working directory.
 
 ## Dependencies
 
-```run_analysis.R``` uses ```dplyr``` and ```data.table``` packages. The scrip installs them if not already installed.
+```run_analysis.R``` uses ```dplyr``` and ```data.table``` packages. The script installs them if not already installed.
