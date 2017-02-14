@@ -2,7 +2,12 @@
 # Peer-graded Assignment: Getting and Cleaning Data Course Project
 #
 
-# Load libraries, assumed to be already installed
+# Install required packages if not already installed
+requiredPackages <- c("data.table", "dplyr")
+newPackages <- requiredPackages[!(requiredPackages %in% installed.packages()[,"Package"])]
+if(length(newPackages)) install.packages(newPackages)
+
+# load required packages
 library(data.table)
 library(dplyr)
 
