@@ -9,7 +9,7 @@ This describes the variables, the data, and transformations that ```run_analysis
 
 ## Input Files
 
-Unzipped from the downloaded zip file and stored under "./data" folder:
+Unzipped from the downloaded zip file and stored under "./data/UCI HAR Dataset" folder:
 - features.txt
 - activity_labels.txt
 - train/X_train.txt
