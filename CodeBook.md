@@ -1,6 +1,6 @@
 # CodeBook
 
-This describes the variables, the data, and transformations that I performed to clean up the data.
+This describes the variables, the data, and transformations that ```run_analysis.R``` performs on data.
 
 ## Data source
 
