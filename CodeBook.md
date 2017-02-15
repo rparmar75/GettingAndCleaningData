@@ -44,4 +44,4 @@ Processed:
 - dfMean -  this data frame table is the aggregated view (mean by subject and activity name) of dfMerged
 
 ## Output file
-- tidy.txt - dfMean (aggregated view of processed data) is stored to local disk under the current working folder
+- tidy.txt - dfMean (aggregated view of merged data, dfMerged) is stored to local disk under the current working folder
