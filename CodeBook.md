@@ -1,13 +1,13 @@
-# CodeBook
+# Code Book
 
 This describes the variables, the data, and transformations that ```run_analysis.R``` performs on data.
 
-## Data source
+## Data Source
 
 * Dataset: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 * Description of data: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-## Input files
+## Input Files
 
 Unzipped from the downloaded zip file and stored under "./data" folder:
 - features.txt
@@ -43,5 +43,5 @@ Processed:
 - dfMerged - this data frame table (created above) is processed to add one more column (activity name) and then columns are reordered and renamed properly
 - dfMean -  this data frame table is the aggregated view (mean by subject and activity name) of dfMerged
 
-## Output file
+## Output File
 - tidy.txt - dfMean (aggregated view of merged data, dfMerged) is stored to local disk under the current working folder
